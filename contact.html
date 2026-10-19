@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tembea-Kenya</title>
+</head>
+<body>  
+    <header>
+        <h1>Tembea-Kenya</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>  
+    <main>
+        <form>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="username">Username (3–15 letters/numbers)</label>
+    <input type="text" id="username" name="username"
+           required minlength="3" maxlength="15" pattern="[A-Za-z0-9]+">
+
+    <label for="guests">Number of guests (1–8)</label>
+    <input type="number" id="guests" name="guests" min="1" max="8" step="1">
+
+    <label for="phone">Phone</label>
+    <input type="tel" id="phone" name="phone"
+           pattern="0[0-9]{9}" placeholder="0712345678"
+           title="10 digits starting with 0">
+
+    <button type="submit"></button>
+</form>  
+<select>
+    <option value="Mombasa">Mombasa</option>
+    <option value="Diani">Diani Beach</option>
+    <option value="Lamu">Lamu Island</option>  
+    <option value="Mara">Maasai Mara</option>
+    <option value="Amboseli">Amboseli Park</option>  
+    <option value="Nakuru">Lake Nakuru</option>
+</select>  
+<date datetime="2027-01-01"></date>  
+<fieldset>
+    <legend>Choose your preferred travel style and budget:</legend>
+    <label for="budget">Budget:</label>
+    <select id="budget" name="budget">
+        <option value="low">Low</option>
+        <option value="medium">Mid-range</option>
+        <option value="high">Luxury</option>
+    </select>  
+    <label for="style">Style</label>  
+    <select id="style" name="style">
+        <option value="coastal">coastal</option>  
+        <option value="Safari">Safari</option>  
+        <option value="Cultural">Cultural</option>
+    </select>
+</fieldset> 
+<textarea name="message" rows="4" cols="50" placeholder="Enter your message here..."></textarea>  
+<button type="submit">comment</button>
+    </main>  
+    <footer>
+        <p>&copy; 2024 Tembea-Kenya. All rights reserved.</p>  
+    </footer>  
+    <address>
+        <p>Contact us at: <a href="mailto:elyasjimale221@gmail.com">eluasjimale221@gmail.com</a>  
+        </address>  
+        </body>  
+        </html>
