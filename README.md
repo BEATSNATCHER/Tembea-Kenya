@@ -4,11 +4,11 @@ Travel discovery site for Kenya — find destinations by region, explore country
 and plan your next trip.
 
 **Live site:** https://tembea.netlify.app
-
-![Tembea homepage screenshot](https://raw.githubusercontent.com/nexa-courses/course-web-foundations/prod-main/content/1.4-developer-workflow/docs/screenshots/homepage.png)
+hots/homepage.png)
+![Tembea homepage screenshot](https://raw.githubusercontent.com/nexa-launchpad/course-web-foundations/prod-main/content/1.4-developer-workflow/docs/screenshots/homepage.png
 
 ## Features
-
+![alt text](Homepage.png)
 - Destination search and region filters with live result count
 - Country data from the REST Countries API (flags, capital, population, languages)
 - Fully responsive — mobile-first Tailwind CSS layout
