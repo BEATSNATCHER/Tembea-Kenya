@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tembea-Kenya</title>
+    <title>Tembea-Kenya</title>  
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>  
-    <header>
+    <header class="navbar">
+        <a href="index.html">
+            <p>Tembea-Kenya</p>
+        </a>
         <nav>
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
@@ -14,10 +18,11 @@
                 <a href="contact.html">Contact</a>
         </nav>  
         </header>  
-<main>
-            <h1>Destinations</h1>
-        <section>  
-            <h2>Maasai Mara</h2>
+<main class="container">
+             <section class="destinations">
+                <h1>Explore the Wonders of Kenya</h1>
+                <p>Discover the best destinations in Kenya, from wildlife safaris to pristine beaches. Plan your next adventure with our comprehensive travel guides and recommendations.</p>
+            <h2> Destinations</h2>
             <article>
                 <h3>Maasai Mara</h3>
                 <figure>
@@ -76,7 +81,8 @@
                 <p>Lamu Island is a UNESCO World Heritage site known for its Swahili architecture and serene beaches.Best time to Visit: <time datetime="2026-12">December</time></p>  
            </article>  
         </section>
-        <table>
+        <div class="table-container">
+        <table class="table-comparison">
             <caption>Top Safari Destinations in Kenya</caption>
             <thead>
                 <tr>
@@ -125,6 +131,7 @@
                 </tr>
             </tbody>   
          </table>
+         </div>
        </main>  
 
         <footer>
